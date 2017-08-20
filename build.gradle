@@ -8,6 +8,8 @@ buildscript {
     }
 }
 
+wrapper.gradleVersion = '2.13'
+
 apply plugin: 'java'
 apply plugin: 'elasticsearch.esplugin'
 apply plugin: 'idea'
